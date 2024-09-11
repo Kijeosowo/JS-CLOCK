@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #ffffff;
+  font-size: 500px;
+  letter-spacing: 7px;
+  z-index: 2;
+}
+
+.line {
+  background-color: black;
+  z-index: 2;
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.body1 {
+  background-color: rgb(15, 15, 15);
+  box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.9);
+  height: 500px;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 30px;
+}
+
+.body2 {
+  background-color: rgb(15, 15, 15);
+  height: 500px;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 30px;
+}
